@@ -2,7 +2,7 @@
 from bs4 import BeautifulSoup
 import urllib.request
 
-print("*******************************************************************")
+print("********************************	WebScripting [START] ***********************************")
 web = input("Put the page [https://website.com/] :")
 data = urllib.request.urlopen(web).read().decode()
 print(data)
@@ -12,4 +12,4 @@ tags = soup('a')
 for tag in tags:
     print(tag.get('href'))
 
-print("*******************************************************************")
+print("****************************** WebScripting [FINISH] *************************************")
