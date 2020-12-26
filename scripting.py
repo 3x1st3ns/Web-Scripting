@@ -6,7 +6,7 @@ import os
 os.system("clear")
 print("\n")
 print("******************************** WebScripting [Started] ***********************************")
-print("\n)
+print("\n")
 web = input("Put the website [https://www.website.com/] :")
 print("\n")
 data = urllib.request.urlopen(web).read().decode()
