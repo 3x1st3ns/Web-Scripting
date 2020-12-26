@@ -2,8 +2,9 @@
 from bs4 import BeautifulSoup
 import urllib.request
 
-print("******************************** WebScripting [Empezando] ***********************************")
-
+print("\n")
+print("******************************** WebScripting [Started] ***********************************")
+print("\n)
 web = input("Put the website [https://www.website.com/] :")
 print("\n")
 data = urllib.request.urlopen(web).read().decode()
@@ -14,4 +15,4 @@ tags = soup('a')
 for tag in tags:
     print(tag.get('href'))
 
-print("\n****************************** WebScripting [Terminado] *************************************")
+print("\n****************************** WebScripting [Finished] *************************************")
