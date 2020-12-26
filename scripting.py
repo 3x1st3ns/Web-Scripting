@@ -1,7 +1,9 @@
 # Web Scripting
 from bs4 import BeautifulSoup
 import urllib.request
+import os
 
+os.system("clear")
 print("\n")
 print("******************************** WebScripting [Started] ***********************************")
 print("\n)
